@@ -24,7 +24,7 @@ class Character():
             enemy.health -= self.power
 
         elif(self.character_name == "hero"):
-            print(f'Hero doeas {self.power} damage to the {enemy.character_name}.')
+            print(f'Hero does {self.power} damage to the {enemy.character_name}.')
         else:
             print(f"The {self.character_name} does {self.power} damage to the hero.") 
 #write elif for individual actions
