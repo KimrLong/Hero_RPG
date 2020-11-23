@@ -46,7 +46,7 @@ class Hero(Character):
         super(Hero, self).__init__(health, power, gold)
     def restore(self, health):
         self.health = 10
-        print("Hero is back in action! Health is retored to {self.health}!")
+        print("Hero is back in action!! Health is retored to {self.health}!")
     def purchase(self, item):
         self.gold -= item.cost
         item.apply(hero)
