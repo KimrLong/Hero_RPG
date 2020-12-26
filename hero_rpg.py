@@ -84,7 +84,7 @@ alchemist = Alchemist(9, 2)
 necromancer = Necromancer(11, 4)
 
 class Potion(object):
-    def__init__(self, gold, name):
+    def__init__(self, gold, name) :
         self.gold = 3
         self.name = tonic
     def apply(self, hero):
